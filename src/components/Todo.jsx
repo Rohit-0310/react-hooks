@@ -3,7 +3,8 @@ import "./todo.css";
 // props
 
 function Todos({ num, children}) {
-    return <div className="heading">{children}</div>
+    return (
+    <h1 className="heading">{children}</h1>)
 }
 
 export default Todos;

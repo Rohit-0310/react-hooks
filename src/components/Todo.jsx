@@ -5,8 +5,9 @@ import "./todo.css";
 function Todos({ num, age}) {
     return (
     <h1
-        className="heading">{" "}
-        {age}
+     className="heading">
+        {" "}
+        {age} Todo : 
     </h1>)
 }
 

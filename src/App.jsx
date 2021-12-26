@@ -7,12 +7,9 @@ function App() {
 
     return (
         <div className="App">
-            {arr.map((e) => 
-            (
-                <Todos
-                num={e}
-                age={1} />
-            ))}
+            {arr.map((e) => (
+                <Todos num={e} age={1} />
+            ))};
         </div>
     );
 }

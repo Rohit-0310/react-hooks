@@ -8,9 +8,7 @@ function App() {
     return (
         <div className="App">
             {arr.map((e) => (
-                <Todos num={e}
-                age="1"
-                data2={[1,2,3,4]}/>
+                <Todos num={e}/>
             ))};
         </div>
     );

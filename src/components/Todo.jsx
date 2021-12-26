@@ -2,12 +2,11 @@ import "./todo.css";
 
 // props
 
-function Todos({ num, children}) {
+function Todos({ num, age}) {
     return (
     <h1
-     className="heading">
-        {" "}
-        {children}
+        className="heading">{" "}
+        {age}
     </h1>)
 }
 

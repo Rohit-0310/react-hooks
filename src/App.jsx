@@ -7,11 +7,12 @@ function App() {
 
     return (
         <div className="App">
-            {arr.map((e) => (
-                <Todos num={e}>
-                <h1>test</h1>
-                </Todos>
-            ))};
+            {arr.map((e) => 
+            (
+                <Todos
+                num={e}
+                age={1} />
+            ))}
         </div>
     );
 }
